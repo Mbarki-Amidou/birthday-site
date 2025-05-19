@@ -14,11 +14,8 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
   const [bubbles, setBubbles] = useState([])
   const [showForYouBtn, setShowForYouBtn] = useState(false)
-  const birthdayDate = new Date("May 12, 2025") // Change this date accordingly
+  const birthdayDate = new Date("May 20, 2025")
   const audioRef = useRef(null)
-
-  // For testing
-  // const birthdayDate = new Date("2025-04-23T22:03:00+05:30")
 
   useEffect(() => {
     setTimeout(() => {
@@ -29,7 +26,6 @@ export default function Home() {
   const startCelebration = () => {
     setShowForYouBtn(false)
     setIsBirthday(true)
-    // Play the song
     if (audioRef.current) {
       audioRef.current.volume = 0.8;
       audioRef.current.play().catch((e) => {
@@ -106,10 +102,8 @@ export default function Home() {
         </motion.button>
       </motion.div>}
 
-      {/* You can change the background song if you want */}
       <audio ref={audioRef} src="/birthday.mp3" preload="auto" loop />
 
-      {/* Decorative elements */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-0 overflow-hidden">
         {bubbles.map((bubble, i) => (
           <motion.div
