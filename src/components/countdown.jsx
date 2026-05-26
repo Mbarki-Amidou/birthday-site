@@ -56,7 +56,7 @@ export default function Countdown({ targetDate, onCountdownEnd }) {
           ease: "easeInOut",
         }}
       >
-        Your Special Day is Almost Here💕
+        Mom&apos;s Special Day is Almost Here 💕
       </motion.h1>
 
       <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -87,7 +87,7 @@ export default function Countdown({ targetDate, onCountdownEnd }) {
         transition={{ delay: 0.5 }}
       >
         <p className="text-lg text-purple-700 mb-4">
-          Just a little more... A small gift for my new friend❤️ (maybe my future girlfriend🙄)
+          Just a little longer... A small surprise I made with love for the most amazing mom ❤️
         </p>
 
         <div className="flex justify-center space-x-2">

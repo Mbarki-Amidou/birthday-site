@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Happy Birthday!",
-  description: "A special birthday countdown and celebration",
+  title: "Happy Birthday, Mom!",
+  description: "A special birthday countdown and celebration for Mom",
 }
 
 export default function RootLayout({ children }) {
