@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/macbook/Documents/Programming/web development/Github/birthday/src/app/layout":["static/media/db5b52ef97cb5bf6-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
